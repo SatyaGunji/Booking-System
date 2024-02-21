@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+  <style>
+    div {
+      margin-top: 100px;
+      height: auto;
+      width: 350px;
+      border: 2px bisque;
+      background: linear-gradient(#fb009f,#fe0202);
+      border-radius: 10px;
+      border-spacing: 2px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    form button{
+    border: none;
+    background: rgb(128, 128, 64);
+    padding: 10px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+}
+	form input{
+    margin-bottom: 5px;
+    border: 1px solid rgba(o, 0, 0, 0.4);
+    border-radius: 3px;
+    outline: none;
+}
+form input:focus{
+    border: 1px solid rgba(0,0,0,0.7);
+    background: #efefef;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    padding-left: 10px;
+    position: relative;
+    height: 15px;
+    font-size: 17px;
+}
+  </style>
+</head>
+
+<body style="background: radial-gradient(rgb(255, 255, 0),rgb(128, 255, 0));">
+  <center>
+    <form action="Registration">
+      <div>
+        <h1>Registration</h1>
+        
+        <input type="text" placeholder="Enter user name" name="username"><br><br>
+        <input type="email" placeholder="Enter user email" name="useremailid"><br><br>
+        <input type="text" placeholder="Enter user mobilenumber" name="usermobilenumber"><br><br>
+        <input type="password" placeholder="Enter user password" name="userpassword"><br><br>
+        <input type="text" placeholder="Enter user address" name="useraddress"><br><br>
+        <input type="text" placeholder="Enter user id" name="userid"><br><br>
+        <input type="submit" style="background: linear-gradient(black,gold); padding: 10px; border-radius: 7px;">
+        <button>cancel</button>
+      </div>
+      
+    </form>
+  </center>
+</body>
+</html>

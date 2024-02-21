@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+    div {
+      margin-top: 100px;
+      height: auto;
+      width: 350px;
+      border: 2px bisque;
+      background: linear-gradient(#fb009f,#fe0202);
+      border-radius: 10px;
+      border-spacing: 2px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    form button{
+    border: none;
+    background: rgb(128, 128, 64);
+    padding: 10px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+}
+	form input{
+    margin-bottom: 5px;
+    border: 1px solid rgba(o, 0, 0, 0.4);
+    border-radius: 3px;
+    outline: none;
+}
+form input:focus{
+    border: 1px solid rgba(0,0,0,0.7);
+    background: #efefef;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    padding-left: 10px;
+    position: relative;
+    height: 15px;
+    font-size: 17px;
+}
+  </style>
+</head>
+<body>
+	<center>
+		<div>
+		
+		<form action="BusDetails" method="post">
+			<br><br><input type="text" placeholder="Enter your starting point" name="from"><br><br>
+			<input type="text" placeholder="Enter your destination" name="to"><br><br>
+			<input type="submit">
+		</form>
+	
+
+
+	</div>
+	</center>
+</body>
+</html>
